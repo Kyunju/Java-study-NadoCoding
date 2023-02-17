@@ -4,8 +4,6 @@ import chap_09.coffee.*;
 import chap_09.user.User;
 import chap_09.user.VIPUser;
 
-import javax.jws.soap.SOAPBinding;
-
 public class _02_GenericClass {
     public static void main(String[] args) {
         // 제네릭 클래스
@@ -69,8 +67,4 @@ public class _02_GenericClass {
     public static <T, V> void orderCoffee(T name, V coffee) {
         System.out.println(coffee + " 준비 완료 : " + name);
     }
-}
-
-class BlackBox {
-    
 }

@@ -1,7 +1,5 @@
 package chap_07;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
 public class BlackBox {
     String modelName;
     String resolution;
