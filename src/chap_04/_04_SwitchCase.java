@@ -51,5 +51,7 @@ public class _04_SwitchCase {
                 break;
         }
         System.out.println(grade + "등급 제품의 가격 : " + grade + "원");
+
+
     }
 }
