@@ -4,7 +4,9 @@ import chap_12.clean.CleanRunnable;
 
 public class _03_join {
     public static void main(String[] args) {
-        // join 의 역할은 join의 Thread를 끝내고 다음줄로 넘어감
+        // join 의 역할은 Thread가 다 끝날 때까지 기다리다가 다음줄로 넘어감
+
+
         CleanRunnable cleanRunnable = new CleanRunnable();
         Thread thread = new Thread(cleanRunnable);
         thread.start();
